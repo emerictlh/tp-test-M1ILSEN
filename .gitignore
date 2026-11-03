@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# environnement vir.
+.venv/
+venv/
+
+# caches
+.pytest_cache/
+.ruff_cache/
+
+# fichiers générés avec make
+.coverage
+htmlcov/
+docs/
+
+# vscode
+.vscode/

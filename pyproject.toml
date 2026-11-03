@@ -1,0 +1,15 @@
+[tool.ruff.lint]
+select = [
+    "D",
+    "E",
+    "F",
+    "UP",
+    "B",
+    "SIM",
+    "I",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["performance: tests de performance (lents)"]
